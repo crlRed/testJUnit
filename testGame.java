@@ -28,10 +28,8 @@ public class testGame{
 
 	* testGuesses = 10, the minimum number of guesses required for the program 
 	                to guess the number
-
-    * currentGuess = a counter for the current guess count of the program that 
+	* currentGuess = a counter for the current guess count of the program that 
                      updates with each iteration of the guess cycle
-
     * calcGuess = the calculated number of guesses, by the program, based on 
                   the upper bound given to the program
 	*/
