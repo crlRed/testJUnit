@@ -30,7 +30,7 @@ public class testGame{
 	                to guess the number
 	* currentGuess = a counter for the current guess count of the program that 
                      updates with each iteration of the guess cycle							
-    * calcGuess = the calculated number of guesses, by the program, based on 
+                     * calcGuess = the calculated number of guesses, by the program, based on 
                   the upper bound given to the program
 	*/
 	private int testGuesses = 10;
