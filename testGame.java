@@ -38,18 +38,18 @@ public class testGame{
 	}
 	
 	public testGame(){
-	    assertNotSame(userNumber, numberGuessed)    // prove that the entered 
-													                        // number and the final 
-													                        // (or approved guess) are 
-													                        // equal, but the references
-													                        // are not the same
+		assertNotSame(userNumber, numberGuessed)	// prove that the entered 
+					                        // number and the final 
+								// (or approved guess) are 
+								// equal, but the references
+								// are not the same
 
-		  assertTrue(testGuesses >=  currentGuess)    // prove that it was guessed
-													                        // in 10 tries or less
+		assertTrue(testGuesses >=  currentGuess)    	// prove that it was guessed
+								// in 10 tries or less
 
-		  assertTrue(testGuesses, calcGuesses)        // calculated number of 
-						                        							// guesses  matches the 
-													                        // expected number of 
-													                         // guesses.
+		assertTrue(testGuesses, calcGuesses)        	// calculated number of 
+						                // guesses  matches the 
+								// expected number of 
+								// guesses.
 	}
 }
