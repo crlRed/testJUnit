@@ -2,10 +2,6 @@ package edu.oakland.test;
 
 //import production
 //import junit.tools
-/**
-* author @Casey Letarte
-* version: v0.5
-*/
 
 public class testGame{
 	
@@ -13,7 +9,7 @@ public class testGame{
 	This junit test package creates an instance of the game and then provides 
 	simulated user input. The following 3 tests are used to show that the user
 	number entered and the final correct guess are pulled from different places,
-    that the number was guessed correctly in the maximum allowed amount of
+ 	that the number was guessed correctly in the maximum allowed amount of
 	guesses or less, and that the program is calculating the right number of
 	guesses based on the upperBound variable.	
 	
@@ -27,12 +23,13 @@ public class testGame{
 	* testGuesses = 10, the minimum number of guesses required for the program 
 	                to guess the number
 
-    * currentGuess = a counter for the current guess count of the program that 
-                     updates with each iteration of the guess cycle
+  	* currentGuess = a counter for the current guess count of the program that 
+                   updates with each iteration of the guess cycle
 
-    * calcGuess = the calculated number of guesses, by the program, based on 
-                  the upper bound given to the program
+	 * calcGuess = the calculated number of guesses, by the program, based on 
+                the upper bound given to the program
 	*/
+
 	private int testGuesses = 10;
 	private int userNumber = 100;
 	
@@ -41,18 +38,18 @@ public class testGame{
 	}
 	
 	public testGame(){
-		assertNotSame(userNumber, numberGuessed)    // prove that the entered 
-													// number and the final 
-													// (or approved guess) are 
-													// equal, but the references
-													// are not the same
+		assertNotSame(userNumber, numberGuessed)	// prove that the entered 
+					                        // number and the final 
+								// (or approved guess) are 
+								// equal, but the references
+								// are not the same
 
-		assertTrue(testGuesses >=  currentGuess)    // prove that it was guessed
-													// in 10 tries or less
+		assertTrue(testGuesses >=  currentGuess)    	// prove that it was guessed
+								// in 10 tries or less
 
-		assertTrue(testGuesses, calcGuesses)        // calculated number of 
-													// guesses  matches the 
-													// expected number of 
-													// guesses.
+		assertTrue(testGuesses, calcGuesses)        	// calculated number of 
+						                // guesses  matches the 
+								// expected number of 
+								// guesses.
 	}
 }
