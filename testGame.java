@@ -3,8 +3,10 @@ package edu.oakland.test;
 //import production
 //import junit.tools
 /**
-* author @Casey Letarte
-* version: v0.5
+* CIT337 classProject
+* testGame.java
+* @author Casey Letarte
+* @version: v0.5 20150803
 */
 
 public class testGame{
@@ -13,7 +15,7 @@ public class testGame{
 	This junit test package creates an instance of the game and then provides 
 	simulated user input. The following 3 tests are used to show that the user
 	number entered and the final correct guess are pulled from different places,
-    that the number was guessed correctly in the maximum allowed amount of
+	that the number was guessed correctly in the maximum allowed amount of
 	guesses or less, and that the program is calculating the right number of
 	guesses based on the upperBound variable.	
 	
